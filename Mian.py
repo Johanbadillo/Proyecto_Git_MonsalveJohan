@@ -28,6 +28,11 @@ while(salida):
         for i in range (Caningredientes):
             nomIngrediente=str(input("Ingrese el nombre del ingrediente: "))
             disponibilidad=int(input("¿El ingrediente esta disponible?\n1. Si\n2. No\nIngrese una opcion numerica "))
+            if(disponibilidad==1):
+                disponible=str('si')
+            else:
+                disponible=str('no')
+        
 
 
 
